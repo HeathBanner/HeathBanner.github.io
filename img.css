@@ -1,0 +1,75 @@
+img {
+    height: 150px;
+    width: 200px;
+    margin: 15px;
+}
+
+.hangc {
+    position: relative;
+    float: left;
+}
+
+.hangt {
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    background: #4aaaa5;
+    padding: 10px 71.5px;
+    text-align: center;
+}
+
+.rpgc {
+    float: left;
+    position: relative;
+}
+
+.rpgt {
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    background: #4aaaa5;
+    padding: 10px 67px;
+    text-align: center;
+}
+
+.triviac {
+    float: left;
+    position: relative;
+}
+
+.triviat {
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    background: #4aaaa5;
+    padding: 10px 63.5px;
+    text-align: center;
+}
+
+.riwc {
+    float: left;
+    position: relative;
+}
+
+.riwt {
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    background: #4aaaa5;
+    padding: 10px 39.5px;
+    text-align: center;
+}
+
+.rpsc {
+    float: left;
+    position: relative;
+}
+
+.rpst {
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    background: #4aaaa5;
+    padding: 10px 42px;
+    text-align: center;
+}
