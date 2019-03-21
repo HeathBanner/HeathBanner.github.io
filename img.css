@@ -1,7 +1,7 @@
 img {
-    height: 150px;
-    width: 200px;
-    margin: 15px;
+    height: 200px;
+    width: 250px;
+    margin: 25px;
 }
 
 .hangc {
@@ -12,10 +12,12 @@ img {
 .hangt {
     position: absolute;
     top: 65%;
-    left: 7%;
+    left: 8.2%;
     background: #4aaaa5;
-    padding: 10px 71.5px;
+    color: #fff;
+    padding: 10px 94.5px;
     text-align: center;
+
 }
 
 .rpgc {
@@ -26,9 +28,10 @@ img {
 .rpgt {
     position: absolute;
     top: 65%;
-    left: 7%;
+    left: 8.5%;
     background: #4aaaa5;
-    padding: 10px 67px;
+    color: #fff;
+    padding: 10px 88.5px;
     text-align: center;
 }
 
@@ -40,9 +43,10 @@ img {
 .triviat {
     position: absolute;
     top: 65%;
-    left: 7%;
+    left: 8.5%;
     background: #4aaaa5;
-    padding: 10px 63.5px;
+    color: #fff;
+    padding: 10px 84.5px;
     text-align: center;
 }
 
@@ -54,9 +58,10 @@ img {
 .riwt {
     position: absolute;
     top: 65%;
-    left: 7%;
+    left: 8.5%;
     background: #4aaaa5;
-    padding: 10px 39.5px;
+    color: #fff;
+    padding: 10px 58px;
     text-align: center;
 }
 
@@ -68,8 +73,9 @@ img {
 .rpst {
     position: absolute;
     top: 65%;
-    left: 7%;
+    left: 8.5%;
     background: #4aaaa5;
-    padding: 10px 42px;
+    color: #fff;
+    padding: 10px 59.5px;
     text-align: center;
 }

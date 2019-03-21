@@ -1,0 +1,116 @@
+* {
+    margin: auto;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    float: left;
+    position: absolute;
+    top: 0%;
+    left: 12%;
+    padding: 22px;
+    background: #4aaaa5;
+    color: #fff;
+}
+
+nav {
+    position: absolute;
+    right: 17%;
+    top: 40%;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+}
+
+.liborder {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+a:link {
+    color: #666;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+main {
+    clear: both;
+    width: 960px;
+    height: 100%;
+    background: #fff;
+}
+
+.contactb {
+    padding: 10px 10px 10px 0px;
+    width: 95%;
+    color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
+
+}
+
+form {
+    padding: 10px;
+}
+
+label {
+    padding: 10px;
+}
+
+.input {
+    padding: 5px;
+    width: 95%;
+    margin: 10px;
+}
+
+textarea {
+    width: 96%;
+    margin: 10px;
+    
+}
+
+.submit {
+    margin-left: 10px;
+    padding: 10px;
+    background: #4aaaa5;
+    color: #fff;
+    font-size: 16px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    background: #666;
+    color: #777;
+    border-top: solid 6px #4aaaa5;
+    margin-top: 20px;
+    padding: 30px 20px 0px 20px;
+}
