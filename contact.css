@@ -68,7 +68,7 @@ main {
     width: 960px;
     height: 100%;
     background: #fff;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .contact {
@@ -109,12 +109,12 @@ textarea {
 }
 
 footer {
-    position: fixed;
+    position: sticky;
     bottom: 0%;
     width: 100%;
     text-align: center;
     background: #666;
     color: #777;
-    border-top: solid 6px #4aaaa5;
-    padding-top: 20px;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 30px;
 }
