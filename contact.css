@@ -11,7 +11,6 @@ body {
 
 header {
     position: relative;
-    width: 100%;
     border-bottom: 1px solid #ccc;
     padding: 35px;
     background: #fff;
@@ -23,8 +22,8 @@ header h1 {
     float: left;
     position: absolute;
     top: 0%;
-    left: 11.85%;
-    padding: 17.5px 10.3px;
+    left: 12.5%;
+    padding: 17.5px 10px;
     background: #4aaaa5;
     color: #fff;
     font-weight: normal;
@@ -32,7 +31,7 @@ header h1 {
 
 nav {
     position: absolute;
-    right: 17%;
+    right: 12.5%;
     top: 40%;
 }
 
@@ -65,14 +64,16 @@ a:hover {
 
 
 main {
-    clear: both;
+    /* clear: both; */
     width: 960px;
     height: 100%;
     background: #fff;
+    margin-bottom: 80px;
 }
 
-.contactb {
-    padding: 10px 10px 10px 0px;
+.contact {
+    padding: 35px 0px 25px 0px;
+    /* margin: 10px 20px; */
     width: 95%;
     color: #4aaaa5;
     border-bottom: 2px solid #ccc;
@@ -80,7 +81,7 @@ main {
 }
 
 form {
-    padding: 10px;
+    padding: 15px;
 }
 
 label {
@@ -115,6 +116,5 @@ footer {
     background: #666;
     color: #777;
     border-top: solid 6px #4aaaa5;
-    margin-top: 20px;
-    padding: 30px 20px 0px 20px;
+    padding-top: 20px;
 }

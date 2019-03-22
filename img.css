@@ -11,11 +11,11 @@ img {
 
 .hangt {
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 8.2%;
     background: #4aaaa5;
     color: #fff;
-    padding: 10px 94.5px;
+    padding: 10px 90.5px;
     text-align: center;
 
 }
@@ -27,11 +27,11 @@ img {
 
 .rpgt {
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 8.5%;
     background: #4aaaa5;
     color: #fff;
-    padding: 10px 88.5px;
+    padding: 10px 83.5px;
     text-align: center;
 }
 
@@ -42,11 +42,11 @@ img {
 
 .triviat {
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 8.5%;
     background: #4aaaa5;
     color: #fff;
-    padding: 10px 84.5px;
+    padding: 10px 81.5px;
     text-align: center;
 }
 
@@ -57,11 +57,11 @@ img {
 
 .riwt {
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 8.5%;
     background: #4aaaa5;
     color: #fff;
-    padding: 10px 58px;
+    padding: 10px 52.5px;
     text-align: center;
 }
 
@@ -72,10 +72,10 @@ img {
 
 .rpst {
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 8.5%;
     background: #4aaaa5;
     color: #fff;
-    padding: 10px 59.5px;
+    padding: 10px 50.5px;
     text-align: center;
 }

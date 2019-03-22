@@ -7,7 +7,6 @@ body {
     height: 100%;
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    z-index: 1;
 }
 
 header {
@@ -15,7 +14,7 @@ header {
     padding: 35px;
     background: #fff;
     border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 }
 
@@ -33,14 +32,19 @@ header h1 {
 
 nav {
     position: absolute;
-    top: 4%;
+    top: 40%;
     right: 12.5%;
 }
 
 nav li {
     float: left;
-    list-style: none;
     padding: 0px 10px;
+    list-style: none;
+}
+
+.liborder {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
 }
 
 a:link {
@@ -58,31 +62,24 @@ a:hover {
     text-decoration: none;
 }
 
-.liborder {
-    border-right: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    padding: 0px 5px;
-}
-
 .main {
     position: absolute;
     left: 12.5%;
     width: 960px;
-    height: auto;
+    height: 900px;
     background: #fff;
-    margin-top: 20px;
+    margin-bottom: 80px;
+}
 
+main h1 {
+    color: #4aaaa5;
+    padding: 25px 0px 15px 0px;
+    margin: 10px 0px;
 }
 
 .port {
     width: 95%;
-    border-bottom: 1px solid #ccc;
-}
-
-main h2 {
-    color: #4aaaa5;
-    padding: 10px 0px 10px 0px;
-    margin: 10px 0px;
+    border-bottom: 2px solid #ccc;
 }
 
 .clearfix {
@@ -92,7 +89,7 @@ main h2 {
 .footerc {
     position: fixed;
     text-align: center;
-    border-top: 5px solid #4aaaa5;
+    border-top: 6px solid #4aaaa5;
     background: #666;
     padding: 20px 20px 0px 20px;
     clear: both;
