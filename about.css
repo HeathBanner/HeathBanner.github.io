@@ -64,7 +64,7 @@ a:hover {
 
 main {
     width: 960px;
-    height: 1000px;
+    height: 1050px;
     background: #fff;
     margin-bottom: 80px;
 }
@@ -83,18 +83,18 @@ main h1 {
 }
 
 article {
-    width: 90%;
+    width: 95%;
     padding: 10px;
 }
 
 main p {
-    line-height: 2em;
+    line-height: 2.4em;
     padding: 0px 10px 20px 0px;
 }
 
 img {
     float: left;
-    height: 125px;
+    height: 190px;
     width: 125px;
     margin: 10px 20px 10px 0px;
 }
