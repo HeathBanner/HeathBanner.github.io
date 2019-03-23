@@ -108,6 +108,10 @@ textarea {
     font-size: 16px;
 }
 
+.submit:hover {
+    background: #ccc;
+}
+
 footer {
     position: sticky;
     bottom: 0%;
