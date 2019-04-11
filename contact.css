@@ -2,6 +2,7 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #777;
     font-size: 22px;
+    word-spacing: 0.1em;    
     background-image: url(imgs/dust.png);
 }
 
