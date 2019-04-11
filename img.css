@@ -1,81 +1,104 @@
-img {
-    height: 200px;
-    width: 250px;
-    margin: 25px;
+
+.WordDivCenter {
+    display: flex;
+    justify-content: center;
 }
 
-.hangc {
+.sideDivImg {
+    background-image: url(imgs/swirls.png);
+}
+
+#wordGuess {
     position: relative;
-    float: left;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-image: url(imgs/wordguess.png); 
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border-right: 4px solid #b2b2b2;
+    border-left: 4px solid #b2b2b2;
 }
 
-.hangt {
-    position: absolute;
-    top: 70%;
-    left: 8.2%;
-    background: #4aaaa5;
-    color: #fff;
-    padding: 10px 90.5px;
+#wordGuessh1 {
     text-align: center;
-
+    background-image: url(imgs/wash.png);
+    color: white;
+    padding: 100px 0px 100px 0px;
+    border-top: 4px solid rgb(117, 1, 1, 0.8);
+    border-bottom: 4px solid rgb(117, 1, 1, 0.8);
 }
 
-.rpgc {
-    float: left;
+#wordGuessh1 p {
+    margin: 0px 50px;
+}
+
+.akameDivCenter {
+    display: flex;
+    justify-content: center;
+    background-image: url(imgs/swirls.png);
+}
+
+
+#akame {
     position: relative;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-image: url(imgs/akame.png);
+    border-radius: 5px;
+    border-right: 4px solid #b2b2b2;
+    border-left: 4px solid #b2b2b2;
 }
 
-.rpgt {
-    position: absolute;
-    top: 70%;
-    left: 8.5%;
-    background: #4aaaa5;
-    color: #fff;
-    padding: 10px 83.5px;
-    text-align: center;
+.triviaDivCenter {
+    display: flex;
+    justify-content: center;
+    background-image: url(imgs/swirls.png);
 }
 
-.triviac {
-    float: left;
+#trivia {
     position: relative;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-image: url(imgs/trivia.png);
+    border-radius: 5px;
+    border-right: 4px solid #b2b2b2;
+    border-left: 4px solid #b2b2b2;
 }
 
-.triviat {
-    position: absolute;
-    top: 70%;
-    left: 8.5%;
-    background: #4aaaa5;
-    color: #fff;
-    padding: 10px 81.5px;
-    text-align: center;
+.rwicDivCenter {
+    display: flex;
+    justify-content: center;
+    background-image: url(imgs/swirls.png);
 }
 
-.riwc {
-    float: left;
-    position: relative;
+#rwic {
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-image: url(imgs/api.png);
+    border-radius: 5px;
+    border-right: 4px solid #b2b2b2;
+    border-left: 4px solid #b2b2b2;
 }
 
-.riwt {
-    position: absolute;
-    top: 70%;
-    left: 8.5%;
-    background: #4aaaa5;
-    color: #fff;
-    padding: 10px 52.5px;
-    text-align: center;
+.rpsDivCenter {
+    display: flex;
+    justify-content: center;
+    background-image: url(imgs/swirls.png);
 }
 
-.rpsc {
-    float: left;
-    position: relative;
+#rps {
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background: rgb(58, 58, 58);
+    border-radius: 5px;
+    border-right: 4px solid #b2b2b2;
+    border-left: 4px solid #b2b2b2;
 }
 
-.rpst {
-    position: absolute;
-    top: 70%;
-    left: 8.5%;
-    background: #4aaaa5;
-    color: #fff;
-    padding: 10px 50.5px;
-    text-align: center;
-}

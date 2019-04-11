@@ -1,80 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="en-us">
-        <title>Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="img.css">
+        <link rel="stylesheet" href="port.css">
+        <title>Portfolio</title>
     </head>
 
-    <body background="stripes-light.png">
-        <header>
-            <h1>Heath Banner</h1>
 
-            <nav>
-                <li><a href="about.html">About</a></li>
-                <li class="liborder"><a href="index.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </nav>
+    <body>
+    
+        <header id="headContainer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-2 col-md-1 col-sm-1 col-1 colp"></div>
+                    <div class="col-lg-4 col-md-5 col-sm-5 col-5 headTest">
+                        <span class="header2">Heath Banner</span>
+                    </div>
+                        <div class="col-lg-4 col-md-5 col-sm-5 col-5 colp flex-right">
+                                <nav>
+                                        <ul>
+                                        <li>
+                                            <a href="index.html">Portfolio</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                        </ul>
+                                </nav>
+                        </div>
+                    <div class="col-lg-2 col-md-1 col-sm-1 col-1 colp"></div>
+                </div>
+            </div>
         </header>
 
         <main>
-            <div class="main">
-                <div class="port">
-                <h1>Portfolio</h1>
-                </div>
-
-                <div class="hangc">
-                    <img src="300.png" alt="Hangman">
-                    <div class="hangt">
-                    <p>Hangman</p>
+        <div class="container-fluid mainRow">
+                <div class="row">
+                    <div class="col-lg-12 col-xl-12 col-md-12 col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                <div id="headerBox">
+                                <h1 id="mainHeader">Welcome</h1>
+                                <p id="mainHeaderP">Displayed below are my applications built within UNC Bootcamp</p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Word Guess box -->
+                            <div class="row sideDivImg">
+                                <div class="col-lg-2 colp"></div>
+                                <div class="col-lg-8 col-md-8 fadeWord colp">                                
+                                    <a href="https://heathbanner.github.io/WordGuess/" class="WordDivCenter"><div id="wordGuess">
+                                    </div></a>
+                                </div>
+                                <div class="col-lg-2 colp"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div id="wordGuessh1">
+                                        <h1>Word Guess</h1>
+                                        <p>The Word Guess application takes 
+                                            in the user's keys and checks to 
+                                            see if it matches a letter in the 
+                                            word you're trying to guess. You're 
+                                            given a hint on the right side of the 
+                                            screen to help guess the word.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- RPG Box -->
+                            <div class="row sideDivImg">
+                                <div class="col-lg-2 colp"></div>
+                                <div class="col-lg-8 col-md-8 colp">
+                                    <a href="https://heathbanner.github.io/AkameAdvanced/" class="akameDivCenter"><div id="akame">
+                                    </div></a>
+                                </div>
+                                <div class="col-lg-2 colp"></div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-lg-12">
+                                        <div id="wordGuessh1">
+                                            <h1>Akame RPG</h1>
+                                            <p>The Akame RPG was built with enthusiasm. The drawback from that is I tried to implement way too much for the time frame I was given.</p>
+                                            <p>In the game, you have a choice between three characters</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            <!-- Trivia Box -->
+                            <div class="row sideDivImg">
+                                <div class="col-lg-2 colp"></div>
+                                <div class="col-lg-8 col-md-8 colp">
+                                    <a href="https://heathbanner.github.io/Trivia/" class="triviaDivCenter"><div id="trivia">
+                                    </div></a>
+                                </div>
+                                <div class="col-lg-2 colp"></div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-lg-12">
+                                        <div id="wordGuessh1">
+                                            <h1>Trivia</h1>
+                                            <p>The trivia game is a multiple 
+                                                choice question game with a time 
+                                                limit of 30 second per question. 
+                                                At the end, you will be presented with 
+                                                the number of corect, incorrect 
+                                                and amount of times the clock ran out.</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            <!-- RWIC Box -->
+                            <div class="row sideDivImg">  
+                                <div class="col-lg-2 colp"></div>
+                                <div class="col-lg-8 col-md-8 colp">
+                                    <a href="https://heathbanner.github.io/API/" class="rwicDivCenter"><div id="rwic">
+                                    </div></a>                               
+                                </div>
+                                <div class="col-lg-2 colp"></div>
+                            </div>  
+                            <div class="row">
+                                    <div class="col-lg-12">
+                                        <div id="wordGuessh1">
+                                            <h1>RWIC (Coming Soon)</h1>
+                                            <p>This application has yet to be built. Once
+                                                the instructor has covered the relvant
+                                                curriculum and the assignment has been sent. 
+                                                I will then have this uploaded...</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            <!-- RPS Box -->
+                            <div class="row sideDivImg">
+                                <div class="col-lg-2 colp"></div>
+                                <div class="col-lg-8 col-md-8 colp">
+                                    <a href="#" class="rpsDivCenter"><div id="rps">
+                                    </div></a>                                
+                                </div>
+                                <div class="col-lg-2 colp"></div> 
+                            </div>
+                            <div class="row">
+                                    <div class="col-lg-12">
+                                        <div id="wordGuessh1">
+                                        <h1>RPS (Coming Soon)</h1>
+                                        <p>This application has yet to be built. Once
+                                            the instructor has covered the relvant
+                                            curriculum and the assignment has been sent. 
+                                            I will then have this uploaded...</p></div>
+                                    </div>
+                            </div>
                     </div>
                 </div>
-
-                <div class="rpgc">
-                    <img src="300.png" alt="RPG Game">
-                        <div class="rpgt">   
-                        <p>RPG Game</p>
-                        </div>
-                </div>
-
-                <div class="clearfix"></div>
-
-                <div class="triviac">
-                <img src="300.png" alt="Trivia Game">
-                    <div class="triviat">
-                    <p>Trivia Game</p>
                     </div>
-                </div>
 
-                <div class="riwc">
-                <img src="300.png" alt="Rutger's Info Widget">
-                    <div class="riwt">
-                    <p>Rutger's Info Widget</p>
-                    </div>
-                </div>
+                
+            
 
-                <div class="clearfix"></div>
-
-                <div class="rpsc">
-                <img src="300.png" atl="Rock Proper Scissors">
-                    <div class="rpst">
-                    <p>Rock Paper Scissors</p>
-                    </div>
-                </div>
-            </div>
         </main>
-        
-        <div class="footerc">
+
         <footer>
-            <div class="footert">
-            <h6>Copyright</h6>
+            <div class="row footer">
+                <div class="col-12">
+                    <h6>Copyright</h1>
+                </div>
             </div>
         </footer>
-        </div>
-
-
-
     </body>
 </html>
