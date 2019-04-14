@@ -86,7 +86,6 @@ a:hover {
     border-top: 4px solid rgb(117, 1, 1, 0.8);
 }
 
-
 #mainHeader {
     padding: 50px 0px 5px 0px;
     color: rgb(117, 1, 1, 0.8);
@@ -102,7 +101,6 @@ a:hover {
 }
 
 .mainRow {
-    width: 100%;
     padding: 0px;
 }
 
