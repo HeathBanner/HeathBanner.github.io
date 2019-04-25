@@ -1,0 +1,95 @@
+
+.parallax-window {
+	min-height: 400px;
+    background: transparent;
+
+}
+
+.WordDivCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.sideDivImg {
+    /* background-image: url(imgs/swirls.png); */
+}
+
+#wordGuess {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-image: url(../imgs/wordguess.png); 
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    /* border-right: 4px solid #b2b2b2;
+    border-left: 4px solid #b2b2b2; */
+}
+
+#wordGuessh1 {
+    text-align: center;
+    /* background-image: url(imgs/wash.png); */
+    color: white;
+    padding: 100px 0px 100px 0px;
+    /* border-top: 4px solid rgb(117, 1, 1, 0.8);
+    border-bottom: 4px solid rgb(117, 1, 1, 0.8); */
+}
+
+#wordGuessh1 p {
+    margin: 0px 50px;
+}
+
+.akameDivCenter {
+    display: flex;
+    justify-content: center;
+}
+
+#akame {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-image: url(../imgs/akame.png);
+}
+
+.triviaDivCenter {
+    display: flex;
+    justify-content: center;
+}
+
+#trivia {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-image: url(../imgs/trivia.png);
+}
+
+.rwicDivCenter {
+    display: flex;
+    justify-content: center;
+}
+
+#rwic {
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-image: url(../imgs/api.png);
+}
+
+.rpsDivCenter {
+    display: flex;
+    justify-content: center;
+}
+
+#rps {
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-image: url(../imgs/rps.png);
+}
+

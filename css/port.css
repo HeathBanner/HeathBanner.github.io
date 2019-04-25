@@ -1,0 +1,112 @@
+
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 22px;  
+    word-spacing: 0.1em;      
+}
+
+h1 {
+    margin: 0px;
+}
+
+.header {
+    position: relative;
+    background-image: url(../imgs/tweed.png);
+    width: 100%;
+}
+
+.headTest {
+    padding: 40px;
+}
+
+.header2 {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;    
+    background: rgba(207, 0, 15, 0.7);
+    padding: 0px 20px;
+    font-size: 28px;
+    margin-left: 0px;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+nav {
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.flex-right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 0px 10px;
+}
+
+.li {
+    display: inline-block;
+}
+
+
+a:link {
+    color: rgb(255,255,255,0.9);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(255,255,255,0.9);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
+#headerBox {
+    /* background-image: url(imgs/dust.png); */
+    border-top: 4px solid rgb(117, 1, 1, 0.8);
+}
+
+#mainHeader {
+    padding: 50px 0px 5px 0px;
+    color: rgba(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+}
+
+#mainHeaderP {
+    text-align: center;
+    color: rgba(255, 255, 255);
+    padding-bottom: 100px;
+    margin: 0px;
+}
+
+.colp {
+    padding: 0px;
+}
+
+.footer {
+    position: sticky;
+    background-image: url(../imgs/tweed.png);
+    color: #777;
+    text-align: center;
+    padding-top: 30px;
+}
+

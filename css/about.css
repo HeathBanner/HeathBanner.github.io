@@ -1,0 +1,152 @@
+
+
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    font-size: 22px;
+    word-spacing: 0.1em;    
+}
+
+
+.header {
+    position: relative;
+    background-image: url(../imgs/tweed.png);
+}
+
+
+.headTest {
+    padding: 40px;
+}
+
+.header2 {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;    
+    background: rgba(207, 0, 15, 0.7);
+    padding: 0px 20px;
+    font-size: 28px;
+    margin-left: 0px;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+nav {
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.flex-right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 0px 10px;
+}
+
+.li {
+    display: inline-block;
+}
+
+a:link {
+    color: rgb(255,255,255,0.9);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(255,255,255,0.9);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+a:link#ttg  {
+    color: #0251d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited#ttg  {
+    color: #0251d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover#ttg  {
+    color: #01317f;
+    text-decoration: none;
+}
+
+
+.colp {
+    padding: 0px;
+}
+
+.main {
+    background: rgb(255, 255, 255, 0.8);
+    border: 2px solid rgb(186, 186, 186, 0.7);
+    border-radius: 10px;
+    margin: 30px 0px 60px 0px;
+    padding: 20px;
+}
+
+
+.aboutheader {
+    padding: 60px 0px;
+    color: rgb(117, 1, 1, 0.8);
+    text-align: center;
+}
+
+img {
+    float: left;
+    height: 150px;
+    width: 100px;
+    margin: 20px 15px 10px 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 186, 186, 0.5)
+}
+
+.mainp {
+    line-height: 1.9em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    margin: 10px 0px 0px 0px;
+}
+
+.footer {
+    position: sticky;
+    background-image: url(../imgs/tweed.png);
+    color: #777;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* @media only screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0em 0em 0em 2em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header {
+        padding: 15px;
+    }
+} */

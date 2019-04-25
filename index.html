@@ -4,10 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="img.css">
-        <link rel="stylesheet" href="port.css">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="./node_modules/jquery-parallax.js/parallax.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+        
+        <link rel="stylesheet" href="./css/img.css">
+        <link rel="stylesheet" href="./css/port.css">
+        
         <title>Portfolio</title>
     </head>
 
@@ -20,17 +28,23 @@
                 <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 col-5 headTest">
                     <span class="header2">Heath Banner</span>
                 </div>
-                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 col-5 flex-right">
+                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 col-5 flex-right colp">
                             <nav>
                                     <ul>
                                     <li>
-                                        <a href="index.html">Portfolio</a>
+                                        <div data-tilt class="li js-tilt" data-tilt-scale="1.1">
+                                            <a href="index.html">Portfolio</a>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="about.html">About</a>
+                                        <div data-tilt class="li js-tilt" data-tilt-scale="1.1">
+                                            <a href="about.html">About</a>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <div data-tilt class="li js-tilt" data-tilt-scale="1.1">
+                                            <a href="contact.html">Contact</a>
+                                        </div>
                                     </li>
                                     </ul>
                             </nav>
@@ -44,14 +58,14 @@
                     <div class="col-lg-12 col-xl-12 col-md-12 col-12">
                             <div class="row">
                                 <div class="col-12 colp">
-                                    <div id="headerBox">
+                                    <div id="headerBox parallax-window" data-parallax="scroll" data-image-src="./imgs/carrie-yang.png" data-speed="0.2">
                                     <h1 id="mainHeader">Welcome</h1>
                                     <p id="mainHeaderP">Displayed below are my applications built within UNC Bootcamp</p>
                                     </div>
                                 </div>
                             </div>
                             <!-- Word Guess box -->
-                            <div class="row sideDivImg">
+                            <div class="row parallax-window" data-parallax="scroll" data-image-src="./imgs/nebula.png" data-speed="0.4">
                                 <div class="col-lg-2"></div>
                                 <div class="col-lg-8 col-md-8 colp fadeWord">                                
                                     <a href="https://heathbanner.github.io/WordGuess/" target="_blank" class="WordDivCenter"><div id="wordGuess">
@@ -62,7 +76,7 @@
 
                             <div class="row">
                                 <div class="col-lg-12 colp">
-                                    <div id="wordGuessh1">
+                                    <div id="wordGuessh1" class="parallax-window" data-parallax="scroll" data-image-src="./imgs/eberhard.png" data-speed="0.7">
                                         <h1>Word Guess</h1>
                                         <p>The Word Guess application takes 
                                             in the user's keys and checks to 
@@ -74,28 +88,8 @@
                                 </div>
                             </div>
 
-                                <!-- RPG Box -->
-                            <div class="row sideDivImg">
-                                <div class="col-lg-2"></div>
-                                <div class="col-lg-8 col-md-8 colp">
-                                    <a href="https://heathbanner.github.io/AkameAdvanced/" target="_blank" class="akameDivCenter"><div id="akame">
-                                    </div></a>
-                                </div>
-                                <div class="col-lg-2"></div>
-                            </div>
-
-                            <div class="row">
-                                    <div class="col-lg-12 colp">
-                                        <div id="wordGuessh1">
-                                            <h1>Akame RPG</h1>
-                                            <p>The Akame RPG was built with enthusiasm. The drawback from that is I tried to implement way too much for the time frame I was given.</p>
-                                            <p>In the game, you have a choice between three characters</p>
-                                        </div>
-                                    </div>
-                            </div>
-
                             <!-- Trivia Box -->
-                            <div class="row sideDivImg">
+                            <div class="row sideDivImg parallax-window"  data-parallax="scroll" data-image-src="./imgs/gem-lauris.png" data-speed="0.4">
                                 <div class="col-lg-2"></div>
                                 <div class="col-lg-8 col-md-8 colp">
                                     <a href="https://heathbanner.github.io/Trivia/" target="_blank" class="triviaDivCenter"><div id="trivia">
@@ -106,7 +100,7 @@
 
                             <div class="row">
                                     <div class="col-lg-12 colp">
-                                        <div id="wordGuessh1">
+                                        <div id="wordGuessh1" class="parallax-window"  data-parallax="scroll" data-image-src="./imgs/eberhard.png" data-speed="0.7">
                                             <h1>Trivia</h1>
                                             <p>The trivia game is a multiple 
                                                 choice question game with a time 
@@ -117,33 +111,9 @@
                                         </div>
                                     </div>
                             </div>
-                            <!-- RWIC Box -->
-                            <div class="row sideDivImg">  
-                                <div class="col-lg-2"></div>
-                                <div class="col-lg-8 col-md-8 colp">
-                                    <a href="https://heathbanner.github.io/API/" target="_blank" class="rwicDivCenter"><div id="rwic">
-                                    </div></a>                               
-                                </div>
-                                <div class="col-lg-2"></div>
-                            </div>  
 
-                            <div class="row">
-                                    <div class="col-lg-12 colp">
-                                        <div id="wordGuessh1">
-                                            <h1>API</h1>
-                                            <p>This application grabs gifs from Giphy. The user has the ability
-                                                to add gifs to their "favorites". At the top, there's an input form
-                                                that lets you add new buttons to search for different gifs. The "Movie" 
-                                                button allows the user to grab movies, shows and episodes. It'll Display
-                                                the title, poster, rating and plot. Charlotte's current weather is Displayed
-                                                at the top right of the screen. The colors/mood of the website changes 
-                                                according to the weather of the city.
-                                            </p>
-                                        </div>
-                                    </div>
-                            </div>
                             <!-- RPS Box -->
-                            <div class="row sideDivImg">
+                            <div class="row sideDivImg parallax-window" data-parallax="scroll" data-image-src="./imgs/samuel-zeller.png" data-speed="0.4">
                                 <div class="col-lg-2"></div>
                                 <div class="col-lg-8 col-md-8 colp">
                                     <a href="https://heathbanner.github.io/RPS/" target="_blank" class="rpsDivCenter"><div id="rps">
@@ -153,7 +123,7 @@
                             </div>
                             <div class="row">
                                     <div class="col-lg-12 colp">
-                                        <div id="wordGuessh1">
+                                        <div id="wordGuessh1" class="parallax-window" data-parallax="scroll" data-image-src="./imgs/eberhard.png" data-speed="0.7">
                                         <h1>RPS</h1>
                                         <p>RPS(Rock Paper Scissors) is a turn-based game that requires
                                             two players in seperate browsers. I've implemented the Firebase
@@ -177,5 +147,7 @@
                 </div>
             </div>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="./node_modules/tilt.js/dest/tilt.jquery.min.js" type="text/javascript"></script>
     </body>
 </html>
