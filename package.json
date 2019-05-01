@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gsap": "^2.1.2",
     "jquery-parallax.js": "^1.5.0",
     "tilt.js": "^1.2.1"
   }

@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+.colp {
+    margin: 0px 0px 0px 0px;
+}
+
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: black;
@@ -106,28 +110,28 @@ a:hover#ttg  {
     background: rgb(255, 255, 255, 0.8);
     border: 2px solid rgb(186, 186, 186, 0.7);
     border-radius: 10px;
-    margin: 30px 0px 60px 0px;
     padding: 20px;
 }
 
 .tech {
-    padding: 60px 0px 60px 0px;
+    padding: 180px 0px 180px 0px;
+    margin: 0px;
 }
 
 .photography {
-    padding: 80px 0px 80px 0px;
+    padding: 180px 0px 180px 0px;
 }
 
 .gConstruction {
-    padding: 80px 0px 80px 0px;
+    padding: 180px 0px 180px 0px;
 }
 
 .hawaii {
-    padding: 80px 0px 80px 0px;
+    padding: 180px 0px 180px 0px;
 }
 
 .python {
-    padding: 80px 0px 80px 0px;
+    padding: 180px 0px 180px 0px;
 }
 
 .aboutheader {

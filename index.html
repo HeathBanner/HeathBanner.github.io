@@ -7,7 +7,7 @@
         
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.0/TweenMax.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="./node_modules/jquery-parallax.js/parallax.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -22,143 +22,159 @@
 
     <body>
     
-        <div class="container-fluid header">
-            <div class="row">
-                <div class="col-xl-2 col-lg-2 col-md-1 col-sm-1 col-1 colp"></div>
-                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 col-5 headTest">
-                    <span class="header2">Heath Banner</span>
-                </div>
-                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 col-5 flex-right colp">
-                            <nav>
-                                    <ul>
-                                    <li>
-                                        <div data-tilt class="li js-tilt" data-tilt-scale="1.1">
-                                            <a href="index.html">Portfolio</a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div data-tilt class="li js-tilt" data-tilt-scale="1.1">
-                                            <a href="about.html">About</a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div data-tilt class="li js-tilt" data-tilt-scale="1.1">
-                                            <a href="contact.html">Contact</a>
-                                        </div>
-                                    </li>
-                                    </ul>
-                            </nav>
-                    </div>
-                <div class="col-xl-2 col-lg-2 col-md-1 col-sm-1 col-1 colp"></div>
-            </div>
+        <div id="navbar">
+            <ul id="alignSideNav">
+                <li class="sideNav"><a href="#top">Back to Top</a></li>
+                <li class="sideNav"><a href="#wordGuessSection">Word Guess</a></li>
+                <li class="sideNav"><a href="#triviaSection">Trivia</a></li>
+                <li class="sideNav"><a href="#rpsSection">RPS Multiplayer</a></li>
+                <li class="sideNav"><a href="#liriSection">Liri Bot</a></li>
+            </ul>
         </div>
 
         <div class="container-fluid">
+            <div class="row parallax-window" data-parallax="scroll" data-image-src="./imgs/carrie-yang.png" data-speed="0.2">
+                <div id="top" class="col-lg-12">
+                <div class="row navBar">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 headTest">
+                        <h5 class="header2">Heath Banner</h5>
+                        <h5 id="heathMirror">Heath Banner</h5>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 flex-right colp">
+                        <nav>
+                            <ul id="alignTopNav">
+                            <li>
+                                <div data-tilt class="js-tilt" data-tilt-scale="1.1">
+                                    <a href="index.html">Portfolio</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-tilt class="js-tilt" data-tilt-scale="1.1">
+                                    <a href="about.html">About</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-tilt class="js-tilt" data-tilt-scale="1.1">
+                                    <a href="contact.html">Contact</a>
+                                </div>
+                            </li>
+                            </ul>
+                        </nav>
+                    </div>
+                
+                
+                </div>
                 <div class="row">
-                    <div class="col-lg-12 col-xl-12 col-md-12 col-12">
-                            <div class="row">
-                                <div class="col-12 colp">
-                                    <div id="headerBox parallax-window" data-parallax="scroll" data-image-src="./imgs/carrie-yang.png" data-speed="0.2">
-                                    <h1 id="mainHeader">Welcome</h1>
-                                    <p id="mainHeaderP">Displayed below are my applications built within UNC Bootcamp</p>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-lg-12 colp">
+                        <div id="intro">
+                        <h1 id="mainHeader">Welcome</h1>
+                        <p id="mainHeaderP">Displayed below are my applications built within UNC Bootcamp</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                    <div class="col-lg-12 col-xl-12 col-md-12 col-12 container">
                             <!-- Word Guess box -->
-                            <div class="row parallax-window" data-parallax="scroll" data-image-src="./imgs/nebula.png" data-speed="0.4">
-                                <div class="col-lg-2"></div>
-                                <div class="col-lg-8 col-md-8 colp fadeWord">                                
-                                    <a href="https://heathbanner.github.io/WordGuess/" target="_blank" class="WordDivCenter"><div id="wordGuess">
-                                    </div></a>
-                                </div>
-                                <div class="col-lg-2"></div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12 colp">
-                                    <div id="wordGuessh1" class="parallax-window" data-parallax="scroll" data-image-src="./imgs/eberhard.png" data-speed="0.7">
-                                        <h1>Word Guess</h1>
-                                        <p>The Word Guess application takes 
-                                            in the user's keys and checks to 
-                                            see if it matches a letter in the 
-                                            word you're trying to guess. You're 
-                                            given a hint on the right side of the 
-                                            screen to help guess the word.</p>
+                            <section id="wordGuessSection">
+                                <div class="row parallax-window" data-parallax="scroll" data-image-src="./imgs/nebula.png" data-speed="0.4">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8 col-md-8 colp fadeWord">                                
+                                        <a href="https://heathbanner.github.io/WordGuess/" target="_blank" class="WordDivCenter"><div id="wordGuess">
+                                        </div></a>
                                     </div>
+                                    <div class="col-lg-2"></div>
                                 </div>
-                            </div>
-
-                            <!-- Trivia Box -->
-                            <div class="row sideDivImg parallax-window"  data-parallax="scroll" data-image-src="./imgs/gem-lauris.png" data-speed="0.4">
-                                <div class="col-lg-2"></div>
-                                <div class="col-lg-8 col-md-8 colp">
-                                    <a href="https://heathbanner.github.io/Trivia/" target="_blank" class="triviaDivCenter"><div id="trivia">
-                                    </div></a>
-                                </div>
-                                <div class="col-lg-2"></div>
-                            </div>
-
-                            <div class="row">
-                                    <div class="col-lg-12 colp">
-                                        <div id="wordGuessh1" class="parallax-window"  data-parallax="scroll" data-image-src="./imgs/eberhard.png" data-speed="0.7">
-                                            <h1>Trivia</h1>
-                                            <p>The trivia game is a multiple 
-                                                choice question game with a time 
-                                                limit of 30 second per question. 
-                                                At the end, you will be presented with 
-                                                the number of corect, incorrect 
-                                                and amount of times the clock ran out.</p>
-                                        </div>
-                                    </div>
-                            </div>
-
-                            <!-- RPS Box -->
-                            <div class="row sideDivImg parallax-window" data-parallax="scroll" data-image-src="./imgs/samuel-zeller.png" data-speed="0.4">
-                                <div class="col-lg-2"></div>
-                                <div class="col-lg-8 col-md-8 colp">
-                                    <a href="https://heathbanner.github.io/RPS/" target="_blank" class="rpsDivCenter"><div id="rps">
-                                    </div></a>                                
-                                </div>
-                                <div class="col-lg-2"></div> 
-                            </div>
-                            <div class="row">
+                                <div class="row">
                                     <div class="col-lg-12 colp">
                                         <div id="wordGuessh1" class="parallax-window" data-parallax="scroll" data-image-src="./imgs/eberhard.png" data-speed="0.7">
-                                        <h1>RPS</h1>
-                                        <p>RPS(Rock Paper Scissors) is a turn-based game that requires
-                                            two players in seperate browsers. I've implemented the Firebase
-                                            Real-Time Database to allow multiplayer functionality. The users
-                                            will have to "login" in order to be able to play the game. The username
-                                            is saved within local storage and temporarily within the database.
-                                            A chat box has been designed in to the game to allow the players 
-                                            to communicate with one another. Once a user disconnects, the game
-                                            is then restarted and awaits for two users to login once again...
-                                        </p></div>
-                                    </div>
-                            </div>
-
-                            <div class="row parallax-window" data-parallax="scroll" data-image-src="./imgs/jared-arango.png" data-speed="0.4">
-                                <div class="col-lg-2"></div>
-                                <div class="col-lg-8 col-md-8 colp fadeWord">                                
-                                    <a href="https://github.com/HeathBanner/Liri" target="_blank" class="liriDivCenter"><div id="liri">
-                                    </div></a>
-                                </div>
-                                <div class="col-lg-2"></div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12 colp">
-                                    <div id="wordGuessh1" class="parallax-window" data-parallax="scroll" data-image-src="./imgs/eberhard.png" data-speed="0.7">
-                                        <h1>Liri</h1>
-                                        <p>Liri is a Terminal based program that takes in two seperate arguments
-                                            and outputs relevant information to the terminal. Each times it sends 
-                                            information to the screen it is logged in to a .txt file along with
-                                            the date and time it was run.
-                                        </p>
+                                            <h1>Word Guess</h1>
+                                            <p>The Word Guess application takes 
+                                                in the user's keys and checks to 
+                                                see if it matches a letter in the 
+                                                word you're trying to guess. You're 
+                                                given a hint on the right side of the 
+                                                screen to help guess the word.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
+                            <!-- Trivia Box -->
+                            <section id="triviaSection">
+                                <div class="row sideDivImg parallax-window"  data-parallax="scroll" data-image-src="./imgs/gem-lauris.png" data-speed="0.4">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8 col-md-8 colp">
+                                        <a href="https://heathbanner.github.io/Trivia/" target="_blank" class="triviaDivCenter"><div id="trivia">
+                                        </div></a>
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-lg-12 colp">
+                                            <div id="wordGuessh1" class="parallax-window"  data-parallax="scroll" data-image-src="./imgs/eberhard.png" data-speed="0.7">
+                                                <h1>Trivia</h1>
+                                                <p>The trivia game is a multiple 
+                                                    choice question game with a time 
+                                                    limit of 30 second per question. 
+                                                    At the end, you will be presented with 
+                                                    the number of corect, incorrect 
+                                                    and amount of times the clock ran out.</p>
+                                            </div>
+                                        </div>
+                                </div>
+                            </section>
+                            <!-- RPS Box -->
+                            <section id="rpsSection">
+                                <div class="row sideDivImg parallax-window" data-parallax="scroll" data-image-src="./imgs/samuel-zeller.png" data-speed="0.4">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8 col-md-8 colp">
+                                        <a href="https://heathbanner.github.io/RPS/" target="_blank" class="rpsDivCenter"><div id="rps">
+                                        </div></a>                                
+                                    </div>
+                                    <div class="col-lg-2"></div> 
+                                </div>
+                                <div class="row">
+                                        <div class="col-lg-12 colp">
+                                            <div id="wordGuessh1" class="parallax-window" data-parallax="scroll" data-image-src="./imgs/eberhard.png" data-speed="0.7">
+                                            <h1>RPS</h1>
+                                            <p>RPS(Rock Paper Scissors) is a turn-based game that requires
+                                                two players in seperate browsers. I've implemented the Firebase
+                                                Real-Time Database to allow multiplayer functionality. The users
+                                                will have to "login" in order to be able to play the game. The username
+                                                is saved within local storage and temporarily within the database.
+                                                A chat box has been designed in to the game to allow the players 
+                                                to communicate with one another. Once a user disconnects, the game
+                                                is then restarted and awaits for two users to login once again...
+                                            </p></div>
+                                        </div>
+                                </div>
+                            </section>
 
+                            <section id="liriSection">
+                                <div class="row parallax-window" data-parallax="scroll" data-image-src="./imgs/jared-arango.png" data-speed="0.4">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8 col-md-8 colp fadeWord">                                
+                                        <a href="https://github.com/HeathBanner/Liri" target="_blank" class="liriDivCenter"><div id="liri">
+                                        </div></a>
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12 colp">
+                                        <div id="wordGuessh1" class="parallax-window" data-parallax="scroll" data-image-src="./imgs/eberhard.png" data-speed="0.7">
+                                            <h1>Liri</h1>
+                                            <p>Liri is a Terminal based program that takes in two seperate arguments
+                                                and outputs relevant information to the terminal. Each times it sends 
+                                                information to the screen it is logged in to a .txt file along with
+                                                the date and time it was run.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
                     </div>
                 </div>
         </div>
@@ -172,5 +188,7 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="./node_modules/tilt.js/dest/tilt.jquery.min.js" type="text/javascript"></script>
+        <script src="gsap.js"></script>
+        <script src="smooth_scroll.js"></script>
     </body>
 </html>

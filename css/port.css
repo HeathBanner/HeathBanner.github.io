@@ -3,65 +3,79 @@
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 22px;  
-    word-spacing: 0.1em;      
+    word-spacing: 0.1em;  
 }
 
-h1 {
-    margin: 0px;
+#top {
+    background-image: url(../imgs/Holders/top-nav2.png);
 }
 
-.header {
-    position: relative;
-    background-image: url(../imgs/tweed.png);
-    width: 100%;
+#navbar {
+    position: fixed;
+    right: 0%;
+    top: 8%;
+    z-index: 1;
+    background-image: url(../imgs/Holders/side-nav.png) center center;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#alignSideNav {
+    list-style: none;
+    display: block;
+    padding: 10px 5px 10px 5px;
+    margin: 0;
+    text-align: right;
+}
+
+.sideNav {
+    margin: 10px 0px;
+    text-shadow: 2px 2px #3f3f3f;
 }
 
 .headTest {
-    padding: 40px;
+    padding: 10px;
+}
+
+#heathMirror {
+    -moz-transform:    scaleX(-1); /* Gecko */
+    -o-transform:      scaleX(-1); /* Opera */
+    -webkit-transform: scaleX(-1); /* Webkit */
+    transform:         scaleX(-1); /* Standard */
+    filter: FlipH;  
+    display: block;
+    width: 200px;
+    font-size: 28px;
+    margin-left: 20px;
+    color: #424242;
 }
 
 .header2 {
-    position: absolute;
     color: #fff;
-    text-align: center;
-    display: inline-flex;
+    text-align: left;
+    display: block;
     align-items: center;    
-    background: rgba(207, 0, 15, 0.7);
-    padding: 0px 20px;
+    padding: 0px 40px 0px 0px;
     font-size: 28px;
-    margin-left: 0px;
-    height: 100%;
-    top: 0%;
-    left: 0%;
+    margin: 0px 0px 0px 20px;
+    border-bottom: solid 1px white;
+    width: 200px;
 }
+
 
 nav {
     padding: 0px 0px;
+    margin-right: 20px;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
 }
 
-.flex-right {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-ul {
-    padding: 0px;
-    margin: 0px;
-}
-
-li {
+#alignTopNav li{
     list-style: none;
-    display: inline;
-    padding: 0px 10px;
-}
-
-.li {
     display: inline-block;
+    margin: 20px 10px;
 }
-
 
 a:link {
     color: rgb(255,255,255,0.9);
@@ -79,13 +93,8 @@ a:hover {
     text-decoration: none;
 }
 
-#headerBox {
-    /* background-image: url(imgs/dust.png); */
-    border-top: 4px solid rgb(117, 1, 1, 0.8);
-}
-
 #mainHeader {
-    padding: 50px 0px 5px 0px;
+    padding: 20px 0px 5px 0px;
     color: rgba(255, 255, 255);
     text-align: center;
     margin: 0px;
@@ -94,8 +103,9 @@ a:hover {
 #mainHeaderP {
     text-align: center;
     color: rgba(255, 255, 255);
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     margin: 0px;
+    padding-bottom: 100px;
 }
 
 .colp {
@@ -104,7 +114,7 @@ a:hover {
 
 .footer {
     position: sticky;
-    background-image: url(../imgs/tweed.png);
+    background-image: url(../imgs/carrie-yang.png);
     color: #777;
     text-align: center;
     padding-top: 30px;
