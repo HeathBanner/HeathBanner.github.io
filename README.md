@@ -1,5 +1,5 @@
 # Under Construction!
 
-The about me page is currently under construction and will be a bit out of order. 
+Implementing new features...She'll be a little rough around the edges until I've finished.
 
 # .ignoreplz
