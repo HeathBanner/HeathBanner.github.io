@@ -91,14 +91,14 @@
     background-image: url(../imgs/rps.png);
 }
 
-.liriDivCenter {
+.famazonDivCenter {
     display: flex;
     justify-content: center;
 }
 
-#liri {
+#famazon {
     width: 100%;
     height: 600px;
     background-size: 100% 100%;
-    background-image: url(../imgs/liri.png);
+    background-image: url(../imgs/famazon.png);
 }
